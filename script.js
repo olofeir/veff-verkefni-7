@@ -34,7 +34,7 @@ function skilabod (timi, rett, haetta) {
     var lokatimi = Date.now();
     var medaltal = (lokatimi-timi)/1000;
 
-    alert("Þú svaraðir " + rett + " af " + GAMES_TO_PLAY + " dæmum rétt á "+ medaltal.toFixed(2) + "sekúndum. \n Meðalrétt svör á sekúndu eru " + (rett/medaltal).toFixed(2));
+    alert("Þú svaraðir " + rett + " af " + GAMES_TO_PLAY + " dæmum rétt á " + medaltal.toFixed(2) + "sekúndum. \n Meðalrétt svör á sekúndu eru " + (rett/medaltal).toFixed(2));
     }
 }
 
